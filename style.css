@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+section, .section {
+    margin-bottom: 30px;
+}
+
+input, button, select, textarea {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+    outline: none;
+}
+
+input[type="range"] {
+    padding: 10px 0;
+}
+
+input:active, input:focus, textarea:active, textarea:focus, select:active, select:focus {
+    background:  orangered;
+}
+
+input[type="date"] {
+    padding: 8px 20px;
+}
+
+textarea {
+    resize: none;
+    width: 50%;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: black;
+    color: orangered;
+}
+
+.form-div {
+    margin-bottom: 30px;
+}
+
+.out-block {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.section {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.section div {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: IndianRed;
+}
+
+.courses {
+    margin-top: 40px;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses a {
+    color: #222;
+}
+
+.active {
+    box-shadow: 0 0 10px #000;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.test-field{
+    min-height: 450px;
+    background: #d2d2d2;
+    position: relative;
+}
+
+.log-block {
+    position: absolute;
+    width: 200px;
+    font-family: monospace;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover{
+    background: orange;
+    cursor: pointer;
+}
